@@ -63,5 +63,8 @@ git clone https://github.com/WayMakerSchool/저장소이름.git
 
 ## 🤝 협업 규칙
 
-- **브랜치**: `main` ← `feat/기능이름`, `fix/버그이름`
+- **브랜치**
+  - `develop`: 개발용 기본 브랜치. 모든 작업은 여기서 시작해요.
+  - `feat/기능이름`, `fix/버그이름`: `develop`에서 만들어서 작업하고, PR로 `develop`에 합쳐요.
+  - `main`: 발표나 배포할 때만 `develop`을 합쳐요.
 - **커밋 메시지**: `feat: 로그인 기능 추가`, `fix: 버튼 클릭 오류 수정`, `docs: README 수정`
